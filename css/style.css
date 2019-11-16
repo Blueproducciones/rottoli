@@ -1,0 +1,958 @@
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:100,300,400,500,600,700,800&display=swap');
+
+body, html{
+    background-color: lightblue;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------------------------------------------  HEADER ---------------------------------------*/
+#header{
+    background-image: url('../img/img-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+}
+header:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(30,52,93,0.3);
+}
+#alineacion{min-height: 100vh;}
+#alineacion .row{min-height: 100vh;}
+
+/* Frase inicial */
+#alineacion h1{
+    color: #eae5d6;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    width: 100%;
+    line-height: 62px;
+    margin-bottom: 48px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+#alineacion span{
+    color: #fff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+
+/* -------------------------------- Navbar --------------------------------- */
+
+#menu{
+    margin-top: 0; 
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+#menu ul li a{
+    margin-right: 0;
+    margin-left: 25px;
+    line-height: 30px;
+    padding: 5px 10px;
+}
+#menu.black{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* ----------------------------------- SCROLL ARROW ------------------------ */
+
+/* --- --- Scroll Arrow --- --- */
+
+.demo a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 20px/1 'Raleway', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+  }
+  .demo a:hover {
+    opacity: .5;
+  }
+
+  #section10 a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+  }
+  #section10 a span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sdb10 2s infinite;
+    animation: sdb10 2s infinite;
+    box-sizing: border-box;
+  }
+  @-webkit-keyframes sdb10 {
+    0% {
+      -webkit-transform: translate(0, 0);
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      -webkit-transform: translate(0, 20px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes sdb10 {
+    0% {
+      transform: translate(0, 0);
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      transform: translate(0, 20px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
+/* ----------------------------------------------------- SECCIÓN DR. ROTTOLI --------------------------------- */
+
+/* ------ ---CONFIGURACIÓN DEL ROW */
+#rottoli{
+    width: 100%;
+    height: auto;
+    background: #eae5d6;
+}
+#rottoli .row
+{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/* ----- ----- ESTILOS DEL TEXTO */
+#rottoli .estudio
+{
+  padding: 50px 50px 30px 100px;
+}
+#rottoli .estudio h2
+{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  padding-bottom: 15px;
+  color: #73848e;
+}
+#rottoli .estudio p
+{
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.875em;
+  color: #73848e;
+  margin: 0;
+}
+
+/* --------------------IMAGEN */
+#rottoli .img
+{
+  background-image: url('../img/estudio.jpg');
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-height: 750px;
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  
+ }
+
+ /* ----------------------------------------------------- ÁREAS DE PRÁCTICA --------------------------------- */
+
+ #servicios{
+    background: rgb(243, 241, 241);
+  }
+  #servicios .container-fluid{
+    padding-bottom: 1.5em;
+  }
+  #servicios .imagen
+  {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* -------------------- Titulo y parrafo */
+  #servicios h2
+  {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2.3em;
+    color: #73848e;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 1em;
+  }
+  #servicios p
+{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.em;
+  color: #73848e;
+  margin: 0;
+}
+
+/* ---------------------- Cartas de servicios */
+
+/* ---Configuracion medidas y espacio de las cartas */
+#servicios .clientes
+{
+  margin-top: 2em;
+  min-height: 400px;
+}
+#servicios .carta
+{
+  position: relative;
+  width: 95%;
+  height: 370px;
+  background: #eae5d6;
+  cursor: pointer;
+  margin: auto;
+}
+
+/* --- Titulos, parrafos */
+#servicios .carta h4
+{
+  text-align: center;
+  padding-top: 100px;
+  text-transform: uppercase;
+  font-family: 'Raleway',sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #73848e;
+}
+#servicios .carta p
+{
+  text-align: left;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-family: 'Raleway',sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: #73848e;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* ----- Boton que abre el modal */
+#servicios .carta a
+{
+  display: inline-block;
+  width: 120px;
+  text-decoration: none;
+  color: #73848e;
+  text-align: center;
+  font-family: 'Raleway',sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  border: 1px solid #73848e;
+  padding: 5px;
+  margin-left: 25px;
+  margin-top: 35px;
+  transition: .5s;
+}
+#servicios .carta a:hover
+{
+  background: #73848e;
+  color: #fff;
+}
+
+/* -----Efecto del SPAN */
+#servicios .carta span
+{
+  position: absolute;
+  top:-10px;
+  right: 10px;
+  font-size: 8em;
+  font-family: 'raleway',sans-serif;
+  font-weight: 800;
+  color: rgba(0,0,0,0.1);
+  transition: .5s;
+}
+#servicios .carta:hover span
+{
+  top:-60px;
+}
+
+/* --------------------------------------------------VENTANA MODAL----------------- */
+/* --------------- modal header */
+.modal-header{
+  height: 50px;
+  background-color: #eae5d6;
+}
+.modal-header h5{
+  font-family: 'raleway',sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+/* List interior dentro de nuevos clientes */
+.modal-body ul .list{
+  margin: 0;
+  margin-bottom: 1em;
+}
+.modal-body ul .list li{
+  margin: 0;
+}
+
+/* -----------modal body */
+.modal .modal-body p{
+  text-align: left;
+}
+.modal-body ul{
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+.modal-body ul li{
+  font-family: 'raleway',sans-serif;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+.modal-footer span{
+  font-family: 'raleway',sans-serif;
+  font-size: 1em;
+  text-align: left;
+  margin-right: auto;
+}
+
+/* ---------------- Boton que lleva a contacto */
+.boton-consulta{
+  margin-top: 1em;
+}
+.boton-consulta img{
+  margin-top: 2em;
+}
+.boton-consulta .col-12 p{
+  margin: 0;
+}
+.boton-modal{
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.boton-modal a{
+  font-family: 'raleway',sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  background-color: #73848e;
+  color: #EAE5D6;
+  border: none;
+  padding: 0.5em;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.boton-modal a:hover{
+  color: #000000;
+  border: 1px solid #000000;
+  background: none;
+}
+
+
+
+/* ----------------------------------------------------- ESCRITOS --------------------------------- */
+
+#escritos
+{
+    width: 100%;
+    min-height: 500px;
+    background: rgb(255, 252, 250);
+    margin: 0;
+}
+
+#escritos h3
+{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2.3em;
+    color: #73848e;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+#escritos .botones
+{
+    margin-top: 7em;
+}
+#escritos .pdf 
+{
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    text-align: center;
+    text-decoration: none;
+    color: #73848e;
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    border: 1px solid #73848e;
+    padding: 10px;
+    transition: .5s;
+}
+#escritos .pdf:hover
+{
+    background: #73848e;
+    color: #ffffff;
+}
+
+/* ----------------------------------------------------- CURSOS Y SEMINARIOS --------------------------------- */
+
+/* -------------Titulo y parrafo */
+#cursos
+{
+  width: 100%;
+  height: auto;
+  background: rgb(243, 241, 241);
+  margin: 0;
+}
+#cursos h2
+{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2.3em;
+  color: #73848e;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#cursos p
+{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.em;
+  color: #73848e;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+/* ----------------- Carousel y newsletter */
+
+#cursos .back_cursos
+{
+  background-color: #23292C;
+}
+#cursos .newsletter
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  padding: 0;
+}
+#cursos .back_cursos p
+{
+  font-size: 1.5em;
+  color: #EAE5D6;
+  text-align: center;
+  margin-bottom: 1em;
+  letter-spacing: 0.1em;
+}
+#cursos input
+{
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  border-radius: 2px;
+}
+#cursos button 
+{
+  background-color: #EAE5D6;
+  margin-top: 2em;
+  border: none;
+  border-radius: 2px;
+  padding: 0.4em;
+  width: 30%;
+  color: #73848e;
+  font-weight: 500;
+}
+
+/* ----------------------------------------------------- UBICACION --------------------------------------------- */
+
+#ubicacion
+{
+  width: 100%;
+  height: auto;
+  background: #EAE5D6;
+  margin: 0;
+}
+#ubicacion .row{
+  margin: 0;
+}
+
+.col-ubicacion
+{
+  margin-top: 1.5em;
+}
+
+/* ------------------------- Iconos y texto */
+#ubicacion .icon-location
+{
+  font-size: 4em;
+  color: #73848E;
+  margin-left: 1em;
+}
+#ubicacion .icon-clock
+{
+  font-size: 4em;
+  color: #73848E;
+  margin-right: 1em;
+}
+#ubicacion .datos-ubicacion
+{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+#ubicacion span
+{
+  color: #73848e;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+#ubicacion p
+{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #73848e;
+}
+
+/* -------------------------------------- Mapa Google */
+
+#ubicacion .maps
+{
+  position: relative;
+  padding-bottom: 30%;
+  height: 0;
+}
+.maps iframe
+{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+} 
+
+/* ------------------------------------------------------ FOOTER --------------------------- */
+
+#contacto{
+  background-color:#23292C;
+  width: 100%;
+}
+#contacto .row{
+  margin: 0;
+}
+
+/* ------------------------columna logo */
+
+#contacto p{
+  color: #EAE5D6;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-size: 1.1em;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+#contacto .col-12{
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+/* ----------------------------columna enlace */
+#contacto .enlaces{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+#contacto h3{
+  color: #EAE5D6;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+#contacto .enlaces a{
+  color: #EAE5D6;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+#contacto .line{
+  background-color:#ffffff;
+  width: 50%;
+  height: 0.1em;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* -------------------------- Formulario */
+#formulario{
+  text-align: center;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#formulario input{
+  width: 70%;
+  margin-bottom: 1em;
+  padding: 0.2em;
+  padding-left: 0.5em;
+  background-color: #EAE5D6;
+  border: none;
+}
+#formulario textarea{
+  width: 70%;
+  height: 8em;
+  padding: 0.2em;
+  padding-left: 0.5em;
+  background-color: #EAE5D6;
+  border: none;
+}
+#formulario button{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 600;
+  width: 20%;
+  padding: 0.2em;
+  color: #73848e;
+  background-color:#EAE5D6;
+  border: none;
+  margin-top:1em;
+}
+
+/* -------------------------------------------------- DERECHOS RESERVADOS---------------- */
+
+.derechos{
+  width: 100%;
+  height: auto;
+  background-color: #202534;
+}
+.derechos .row{
+  margin: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+/* --------------------columna copy */
+.derechos .copy a{
+  color: #DBA66D;
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+.derechos .copy p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  color:#99A9B5;
+  margin: 0; 
+}
+/* --------------------columna menu */
+.derechos .nav-menu{
+  text-align: center;
+  margin: auto;
+  padding: 0;
+
+}
+.derechos a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  padding-right: 1em;
+  color: #99A9B5;
+  text-decoration: none;
+}
+/* --------------------iconos */
+.derechos .icon-copyright{
+  color: #99A9B5;
+  font-size: 1em;
+  margin-right: 1em;
+}
+.derechos .icon-facebook{
+  color: #99A9B5;
+  font-size: 2em;
+  margin-right: 2em;
+}
+
+
+/* ------------------------------------  ---------------------------  MEDIAQUERIES -------------------- ------------------------ */
+
+/* Dispositivo lg */
+@media screen and (max-width:991px){
+    /* ------------------------------------- HEADER ---------------- */
+    #alineacion h1{
+        font-size: 2em;
+        margin-top: -2em;
+        margin-bottom: 0.5em;
+    }
+    #section10 a span{
+        margin-top: 40px;
+    }
+    #menu{
+      background-color: #212529;
+    }
+    #menu.black{
+      background-color: #212529;
+  }
+
+    /* ------------------------------------- ÁREAS DE PRÁCTICA ---------------- */
+  #servicios .carta{
+      margin-top: 2em;
+      width: 70%;
+      margin: auto;
+      margin-bottom: 2em;
+    }
+
+    /* ------------------------------------- CURSOS Y SEMINARIOS ---------------- */
+   #cursos{
+     background-color: #f8f8f8;
+   } 
+  #cursos .back_cursos{
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  #cursos .back_cursos p{
+    margin-top: 2em;
+  }
+
+  /* ------------------------------------- ESCRITOS --------------------------- */
+  #escritos{
+    display: none;
+  }
+}
+
+/* Dispositivo md */
+@media screen and (max-width:767px){
+
+    /* ------------------------------------- HEADER ---------------- */
+    #alineacion h1{
+        font-size: 1.6em;
+        line-height: 1.7em;
+        margin-top: -2em;
+    }
+
+    /* ------------------------------------ DERECHOS Y COPY -------- */
+    .derechos .facebook{
+      margin-bottom: 1em;
+    }
+    .derechos .icon-facebook{
+      margin-right: 0;
+    }
+}
+
+/* Dispositivo sm */
+@media screen and (min-width:320px) and (max-width:575px){
+
+    /* ------------------------------------- HEADER ---------------- */
+    #alineacion h1{
+        font-size: 1.3em;
+        line-height: 2em;
+        letter-spacing: 0.3em;
+        margin-top: -2.2em;
+    }
+
+     /* ----------------------------------- DR. ROTTOLI ------------- */
+    #rottoli .columna{
+         padding: 1em;
+    }
+    #rottoli h2{
+        margin-top: 1em;
+    }
+
+     /* --------------------------- ÁREAS DE PRÁCTICA ---------------- */
+
+     /*-------------------Icono titulo y parrafo  */
+    #servicios .imagen {
+    width: 50px;
+    }
+    #servicios h2{
+    font-size: 1.8em;
+    }
+    #servicios p{
+    margin-top: 2em;
+    line-height: 2em;
+    }
+
+    /* --------------------Cartas */
+    #servicios .clientes{
+    margin-top: 3rem;
+    }
+
+    #servicios .carta{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    }
+
+    /* ------------------------------------- ESCRITOS ---------------- */
+    #escritos h3{
+    font-size: 1.8em;
+    margin-top: 2rem;
+    line-height: 1.4em;
+    }
+    #escritos .botones{
+        margin-top: 3.2em;
+    }
+    #escritos .botonera{
+        margin-top: 3.2em;
+    }
+    #escritos .pdf{
+        font-size: 1.5em;
+    }
+
+    /* ------------------------------------- CURSOS Y SEMINARIOS ---------------- */
+    #cursos h2{
+        font-size: 1.8em;
+        line-height: 1.4em;
+        margin-top: 1.1em;
+        margin-bottom: 1em;
+    }
+    #cursos p{
+        line-height: 1.5em;
+    }
+
+    /* -------Carousel y newsletter */
+    #cursos .newsletter{
+      width: 100%;
+    }
+    #cursos .back_cursos p{
+      font-size: 1.2em;
+      letter-spacing: 0;
+    }
+    #cursos button{
+      width: 100%;
+      margin-top: 1em;
+    }
+
+    /* ----------------------------------------- UBICACION ------------------------ */
+
+    #ubicacion .icon-location{
+      margin: 0;
+      margin-bottom: 0.5em;
+    }
+    #ubicacion .icon-clock{
+      margin: 0;
+    }
+    #ubicacion p{
+      text-align: center;
+    }
+    #ubicacion span{
+      font-weight: 600;
+      font-size: 1.2em;
+    }
+    #ubicacion .maps{
+      padding-bottom: 100%;
+    }
+    /* ------------------------------------------ FOOTER -------------------------- */
+    #contacto .formulario{
+      margin-top: 0;
+    }
+    #formulario input{
+      width: 100%;
+    }
+    #formulario textarea{
+      width: 100%;
+    }
+    #formulario button{
+      width: 100%;
+      padding: 0.3em;
+      color: #EAE5D6;
+      background-color: #73848e;
+      font-weight: 700;
+    }
+
+    /* ------------------------------------ DERECHOS Y COPY -------- */
+    .derechos .copy{
+      display: flex;
+      flex-direction: column;
+    }
+    .derechos .copy a{
+      margin-left: 0;
+      padding: 0;
+    }
+    .derechos .icon-copyright{
+      margin-right: 0; 
+    }
+}
+
+
+
+
+
+
+

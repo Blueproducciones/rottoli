@@ -1,0 +1,384 @@
+%!Adobe-FontList 1.15
+%Locale:0xc0a
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\OFL.txt
+FileModTime:1346976000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Black
+FamilyName:Raleway
+StyleName:Black
+FullName:Raleway Black
+MenuName:Raleway Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-Black.ttf
+DataFormat:sfntData
+FileLength:175308
+FileModTime:1346976000
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Raleway Black
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-BlackItalic
+FamilyName:Raleway
+StyleName:Black Italic
+FullName:Raleway Black Italic
+MenuName:Raleway Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-BlackItalic.ttf
+DataFormat:sfntData
+FileLength:143092
+FileModTime:1346976000
+WeightClass:900
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Raleway Black
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Bold
+FamilyName:Raleway
+StyleName:Bold
+FullName:Raleway Bold
+MenuName:Raleway
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-Bold.ttf
+DataFormat:sfntData
+FileLength:173756
+FileModTime:1346976000
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-BoldItalic
+FamilyName:Raleway
+StyleName:Bold Italic
+FullName:Raleway Bold Italic
+MenuName:Raleway
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-BoldItalic.ttf
+DataFormat:sfntData
+FileLength:142788
+FileModTime:1346976000
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ExtraBold
+FamilyName:Raleway
+StyleName:ExtraBold
+FullName:Raleway ExtraBold
+MenuName:Raleway ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-ExtraBold.ttf
+DataFormat:sfntData
+FileLength:172704
+FileModTime:1346976000
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Raleway ExtraBold
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ExtraBoldItalic
+FamilyName:Raleway
+StyleName:ExtraBold Italic
+FullName:Raleway ExtraBold Italic
+MenuName:Raleway ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-ExtraBoldItalic.ttf
+DataFormat:sfntData
+FileLength:142688
+FileModTime:1346976000
+WeightClass:800
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Raleway ExtraBold
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ExtraLight
+FamilyName:Raleway
+StyleName:ExtraLight
+FullName:Raleway ExtraLight
+MenuName:Raleway ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-ExtraLight.ttf
+DataFormat:sfntData
+FileLength:170924
+FileModTime:1346976000
+WeightClass:275
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Raleway ExtraLight
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ExtraLightItalic
+FamilyName:Raleway
+StyleName:ExtraLight Italic
+FullName:Raleway ExtraLight Italic
+MenuName:Raleway ExtraLight
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-ExtraLightItalic.ttf
+DataFormat:sfntData
+FileLength:136700
+FileModTime:1346976000
+WeightClass:275
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Raleway ExtraLight
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Light
+FamilyName:Raleway
+StyleName:Light
+FullName:Raleway Light
+MenuName:Raleway Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-Light.ttf
+DataFormat:sfntData
+FileLength:176904
+FileModTime:1346976000
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Raleway Light
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-LightItalic
+FamilyName:Raleway
+StyleName:Light Italic
+FullName:Raleway Light Italic
+MenuName:Raleway Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-LightItalic.ttf
+DataFormat:sfntData
+FileLength:142948
+FileModTime:1346976000
+WeightClass:300
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Raleway Light
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Medium
+FamilyName:Raleway
+StyleName:Medium
+FullName:Raleway Medium
+MenuName:Raleway Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-Medium.ttf
+DataFormat:sfntData
+FileLength:174028
+FileModTime:1346976000
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Raleway Medium
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-MediumItalic
+FamilyName:Raleway
+StyleName:Medium Italic
+FullName:Raleway Medium Italic
+MenuName:Raleway Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-MediumItalic.ttf
+DataFormat:sfntData
+FileLength:142248
+FileModTime:1346976000
+WeightClass:500
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Raleway Medium
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Regular
+FamilyName:Raleway
+StyleName:Regular
+FullName:Raleway
+MenuName:Raleway
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-Regular.ttf
+DataFormat:sfntData
+FileLength:172992
+FileModTime:1346976000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Italic
+FamilyName:Raleway
+StyleName:Italic
+FullName:Raleway Italic
+MenuName:Raleway
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-RegularItalic.ttf
+DataFormat:sfntData
+FileLength:140520
+FileModTime:1346976000
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-SemiBold
+FamilyName:Raleway
+StyleName:SemiBold
+FullName:Raleway SemiBold
+MenuName:Raleway SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-SemiBold.ttf
+DataFormat:sfntData
+FileLength:175040
+FileModTime:1346976000
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Raleway SemiBold
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-SemiBoldItalic
+FamilyName:Raleway
+StyleName:SemiBold Italic
+FullName:Raleway SemiBold Italic
+MenuName:Raleway SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-SemiBoldItalic.ttf
+DataFormat:sfntData
+FileLength:141164
+FileModTime:1346976000
+WeightClass:600
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Raleway SemiBold
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Thin
+FamilyName:Raleway
+StyleName:Thin
+FullName:Raleway Thin
+MenuName:Raleway Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-Thin.ttf
+DataFormat:sfntData
+FileLength:172100
+FileModTime:1346976000
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Raleway Thin
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ThinItalic
+FamilyName:Raleway
+StyleName:Thin Italic
+FullName:Raleway Thin Italic
+MenuName:Raleway Thin
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Nahuel\Documents\BLUE PRODUCCIONES\PAGINAS WEB\DR. ROTTOLI\Web Rottoli\DISEÑO\Font\Raleway-ThinItalic.ttf
+DataFormat:sfntData
+FileLength:136428
+FileModTime:1346976000
+WeightClass:250
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Raleway Thin
+NameArray:0,Win,16,Raleway
+%EndFont
+
