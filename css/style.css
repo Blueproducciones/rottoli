@@ -858,6 +858,9 @@ header:before{
     padding-bottom: 1em;
     margin-bottom: 2em;
     }
+    .boton-modal a{
+      font-size: 1em;
+    }
 
     /* ------------------------------------- ESCRITOS ---------------- */
     #escritos h3{
@@ -943,6 +946,9 @@ header:before{
     }
     .derechos .copy a{
       margin-left: 0;
+      padding: 0;
+    }
+    .derechos a{
       padding: 0;
     }
     .derechos .icon-copyright{
