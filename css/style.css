@@ -264,7 +264,7 @@ header:before{
 {
   position: relative;
   width: 95%;
-  height: 370px;
+  height: 27em;
   background: #eae5d6;
   cursor: pointer;
   margin: auto;
@@ -292,11 +292,14 @@ header:before{
   color: #73848e;
   padding-left: 25px;
   padding-right: 25px;
+  padding-top: 3em;
 }
 
 /* ----- Boton que abre el modal */
 #servicios .carta a
 {
+  position: absolute;
+  bottom: 1em;
   display: inline-block;
   width: 120px;
   text-decoration: none;
@@ -388,6 +391,7 @@ header:before{
   text-align: center;
   width: 100%;
   height: auto;
+  margin-top: 2em;
 }
 .boton-modal a{
   font-family: 'raleway',sans-serif;
@@ -528,6 +532,7 @@ header:before{
   width: 30%;
   color: #73848e;
   font-weight: 500;
+  padding: 0.5em;
 }
 
 /* ----------------------------------------------------- UBICACION --------------------------------------------- */
@@ -675,6 +680,8 @@ header:before{
   padding-left: 0.5em;
   background-color: #EAE5D6;
   border: none;
+  border-radius: 2px;
+  padding: 0.5em;
 }
 #formulario textarea{
   width: 70%;
@@ -683,6 +690,7 @@ header:before{
   padding-left: 0.5em;
   background-color: #EAE5D6;
   border: none;
+  border-radius: 2px;
 }
 #formulario button{
   font-family: 'Open Sans', sans-serif;
@@ -694,6 +702,7 @@ header:before{
   background-color:#EAE5D6;
   border: none;
   margin-top:1em;
+  padding: 0.5em;
 }
 
 /* -------------------------------------------------- DERECHOS RESERVADOS---------------- */
@@ -774,6 +783,7 @@ header:before{
       width: 70%;
       margin: auto;
       margin-bottom: 2em;
+      height: 25em;
     }
 
     /* ------------------------------------- CURSOS Y SEMINARIOS ---------------- */
@@ -854,9 +864,11 @@ header:before{
     #servicios .carta{
     width: 100%;
     max-width: 100%;
-    height: auto;
     padding-bottom: 1em;
     margin-bottom: 2em;
+    }
+    #servicios .carta p{
+      padding-top: 0;
     }
     .boton-modal a{
       font-size: 1em;
