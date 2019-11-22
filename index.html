@@ -494,12 +494,12 @@
             <div class="formulario col-12 col-md-6 col-lg-4">
                 <h3>Contactanos</h3>
 
-                <form action="" id="formulario">
-                    <input type="text" name="nombre" placeholder="Nombre">
-                    <input type="text" name="email" placeholder="Email">
-                    <input type="text" name="asunto" placeholder="Asunto">
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje..."></textarea>
-                    <button type="submit">Enviar</button>
+                <form action="formulario.php" method="POST" id="formulario">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="text" name="email" placeholder="Email" required>
+                    <input type="number" name="telefono" placeholder="Teléfono">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje..." required></textarea>
+                    <button type="submit" value="enviar">Enviar</button>
                 </form>
             </div>
         </div>
