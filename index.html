@@ -495,12 +495,12 @@
             <div class="formulario col-12 col-md-6 col-lg-4">
                 <h3>Contactanos</h3>
 
-                <form action="formulario.php" method="POST" id="formulario">
-                    <input type="text" name="nombre" placeholder="Nombre" required>
-                    <input type="text" name="email" placeholder="Email" required>
+                <form id="formulario" action="recibir.php" method="POST" >
+                    <input type="text" name="nombre" placeholder="Ingresa tu nombre" required>
+                    <input type="text" name="email" placeholder="Ingresa tu email" required>
                     <input type="number" name="telefono" placeholder="Teléfono">
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje..." required></textarea>
-                    <button type="submit" value="enviar">Enviar</button>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Deja tu mensaje..." required></textarea>
+                    <button type="submit" id="btnEnviar" name="btnEnviar" value="Enviar formulario">Enviar</button>
                 </form>
             </div>
         </div>
@@ -529,6 +529,6 @@
         </div>
     </div>
 
-
+    <script src="js/enviar.js"></script>
 </body>
 </html>
